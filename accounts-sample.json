@@ -1,0 +1,32 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "secretToken": "sk_test_demo_account_key_123",
+    "name": "Demo Profile (Sample)",
+    "platform": "linkedin",
+    "clientId": "777abc123xyz456",
+    "clientSecret": "WPL_AP1.XyZ987uVw654tRs.AbC12==",
+    "redirectUri": "http://localhost:8277/api/linkedin/callback",
+    "manualUrn": "urn:li:person:ACoAAABxyzDEFghijKLMNOpqrstuvwxyZ",
+    "scopes": [
+      "openid",
+      "profile",
+      "email",
+      "w_member_social"
+    ]
+  },
+  {
+    "id": "987f6543-21ba-43d2-c987-654321098765",
+    "secretToken": "sk_test_business_page_key_456",
+    "name": "Sample Business Page",
+    "platform": "linkedin",
+    "clientId": "555def789uvw123",
+    "clientSecret": "WPL_DeF456gHi789jKl.MnO34==",
+    "redirectUri": "http://localhost:8277/api/linkedin/callback",
+    "manualUrn": "urn:li:organization:87654321",
+    "scopes": [
+      "w_member_social",
+      "r_organization_social"
+    ]
+  }
+]
